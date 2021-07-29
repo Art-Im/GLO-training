@@ -1,0 +1,152 @@
+
+# Создано https://www.toptal.com/developers/gitignore/api/windows,node
+# Отредактируйте на https://www.toptal.com/developers/gitignore?templates=windows,node
+
+### Узел ###
+# Журналы
+журналы
+*.бревно
+npm-debug.log *
+пряжа-debug.log *
+пряжа-error.log *
+lerna-debug.log *
+.pnpm-debug.log *
+
+# Диагностические отчеты (https://nodejs.org/api/report.html)
+отчет. [0-9] *. [0-9] *. [0-9] *. [0-9] *. json
+
+# Данные времени выполнения
+pids
+* .pid
+*.семя
+* .pid.lock
+
+# Каталог инструментальных библиотек, созданных jscoverage / JSCover
+lib-cov
+
+# Каталог покрытия, используемый такими инструментами, как istanbul
+покрытие
+* .lcov
+
+# NYC тестовое покрытие
+.nyc_output
+
+# Промежуточное хранилище Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Каталог зависимостей Bower (https://bower.io/)
+bower_components
+
+# конфигурация node-waf
+.lock-wscript
+
+# Скомпилированные бинарные дополнения (https://nodejs.org/api/addons.html)
+сборка / выпуск
+
+# Каталоги зависимостей
+node_modules /
+jspm_packages /
+
+# Каталог зависимостей Snowpack (https://snowpack.dev/)
+web_modules /
+
+# Кеш TypeScript
+* .tsbuildinfo
+
+# Необязательный каталог кеша npm
+.npm
+
+# Необязательный кеш eslint
+.eslintcache
+
+# Кэш Microbundle
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Необязательная история REPL
+.node_repl_history
+
+# Вывод 'npm pack'
+* .tgz
+
+# Файл целостности пряжи
+.yarn-целостность
+
+# dotenv файл переменных среды
+.env
+.env.test
+.env.production
+
+# кеш сборщика посылок (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Вывод сборки Next.js
+.следующий
+вне
+
+# Nuxt.js строит / генерирует вывод
+.nuxt
+расстояние
+
+# Файлы Gatsby
+.cache /
+# Прокомментируйте в публичной строке, если ваш проект использует Gatsby, а не Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# общедоступный
+
+# вывод сборки vuepress
+.vuepress / dist
+
+# Бессерверные каталоги
+.serverless /
+
+# Кеш FuseBox
+.fusebox /
+
+# DynamoDB Локальные файлы
+.dynamodb /
+
+# Файл порта TernJS
+.tern-порт
+
+# Хранит версии VSCode, используемые для тестирования расширений VSCode
+.vscode-test
+
+# пряжа v2
+.yarn / кеш
+.yarn / отключен
+.yarn / build-state.yml
+.yarn / install-state.gz
+.pnp. *
+
+### Windows ###
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: шифруемый
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+* .stackdump
+
+# Файл конфигурации папки
+[Dd] esktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$ RECYCLE.BIN /
+
+# Файлы установщика Windows
+*.такси
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Ярлыки Windows
+* .lnk
+
+# Конец https://www.toptal.com/developers/gitignore/api/windows,node
+node_modules
