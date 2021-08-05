@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Art-Im/GLO-training#readme",
   "devDependencies": {
     "browser-sync": "^2.27.5",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.37.5"
   }
 }
