@@ -1,6 +1,6 @@
 const {src, dest, watch} = require ('gulp');
 const browserSync = require('browser-sync').create();
-const sass = require ('gulp-sass');
+const sass = require ('gulp-sass')(require('sass'));
 
 
 // Static server
